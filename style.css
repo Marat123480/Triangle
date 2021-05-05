@@ -1,0 +1,870 @@
+header, article, .container, .slider-main {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+.loop{
+    width: 16px;
+}
+header{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #686868;
+}
+.card-logo {
+    width: 29%;
+    padding-right: 8px;
+    padding-left: 21px;
+}
+.client img{
+    display: block;
+    margin: 0 auto;
+}
+body{
+    margin-bottom: 0;
+}
+nav {
+    padding-right: 6%;
+}
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block; 
+    margin-left: 2%;
+}
+.media{
+    margin: 0 0 25px;
+}
+footer h2{
+    margin-top: 0;
+    margin-bottom: 26px;
+}
+.media a {
+    color: #ea2c00;
+    font-size: 18px;
+}
+.media h3{
+    margin: 0;
+    padding-left: 107px;
+}
+footer .face{
+    margin-right: 25px;
+    float: left;
+}
+.testimonial{
+    width: 33.33333333%;
+    margin-left: 47px;
+    float: left;
+}
+.container-serv{
+    width: 100%;
+    margin: 0 auto;
+    padding: 65px 15px; 
+    display: flex;
+}
+.clients-logo{
+    width: 100%;
+    display: flex;
+}
+.container-foot{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+.container-features{
+    width: 100%;
+    margin: 0 auto;
+    padding: 65px 15px 40px;
+    display: flex;
+}
+#clients .container{
+    padding-bottom: 45px;
+}
+.features-single-third{
+    width: 100%;
+    margin: 0 auto;
+    display: flex; 
+    padding: 0 15px 95px;
+}
+footer{
+    background-image: url(https://demo.themeum.com/html/triangle/1.1/images/home/footer.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+footer .introduction{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    margin-bottom: 60px;
+}
+img.img-responsive {
+    width: 100%;
+}
+textarea {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: textarea;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    padding: 2px;
+}
+.btn-submit {
+    width: 100%;
+    background-color: #4fcccd;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    margin-top: 5px;
+    border-bottom: 3px solid #2f9697;
+    box-shadow: none;
+    padding: 10px;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.foot{
+    width: 100%;
+}
+.logotip{
+    width: 22%;
+}
+.but{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #0099ae;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 25px;
+    border: 1px solid #0099ae;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.tourbutton{
+    width: 41.66666667%;
+    top: 0;
+    height: 149px;
+    right: 0;
+    background: url(https://demo.themeum.com/html/triangle/1.1/images/home/tour-icon2.png) no-repeat;
+    background-position: 151px 4px;
+}
+#TakeTour{
+    background: url(https://demo.themeum.com/html/triangle/1.1/images/home/tour-bg.png) repeat-x;
+    background-color: #fbfafa;
+}
+#start-slider{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    background: url(https://demo.themeum.com/html/triangle/1.1/images/home/slider-bg.png) 0 100%  repeat-x;
+
+}
+.client p, .client h1{
+    text-align: center;
+    margin: 20px 0 10px;
+}
+.hill{
+    position: absolute; 
+    right: 0px; 
+    bottom: 0px;
+}
+.sun{
+    position: absolute; 
+    right: 365px;
+    bottom: 100px;
+}
+.house{
+    position: absolute; 
+    right: 100px;
+    bottom: -30px;
+}
+.birds1{
+    position: absolute; 
+    right: 470px; 
+    bottom: 75px;
+}
+.birds2{
+    position: absolute; 
+    right: 40px; 
+    bottom: 150px;
+}
+.service img{
+    height: 85px;
+}
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    border-left: 5px solid #eee;
+}
+blockquote {
+    width: 50%;
+    padding-left: 84px;
+    padding-right: 30px;
+    position: relative;
+    border-left: 0;
+    margin-bottom: 0;
+}
+blockquote:after {
+    position: absolute;
+    right: 16px;
+    bottom: 14px;
+    content: '"';
+    font-size: 40px;
+    color: #ea2c00;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 0;
+}
+blockquote:before {
+    position: absolute;
+    left: 88px;
+    top: 8px;
+    content: '"';
+    font-size: 40px;
+    color: #ea2c00;
+    font-family: 'Noto Sans', sans-serif;
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    line-height: 0;
+}
+.contact{
+    width: 25%;
+    float: left;
+}
+address{
+    line-height: 22px;
+    margin-bottom: 40px;
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+address a{
+    color: #C03035;
+    text-decoration: none;
+
+}
+.forms{
+    width: 33.33333333%;
+    float: left;
+}
+.form-control {
+    border: 1px solid #eaeaea;
+    font-weight: 300;
+    outline: none;
+    box-shadow: none;
+    height: 40px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+.form-control {
+    border: 1px solid #eaeaea;
+    font-weight: 300;
+    outline: none;
+    box-shadow: none;
+    height: 40px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+input {
+    line-height: normal;
+}
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: textfield;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+#message {
+    height: 110px;
+    resize: none;
+}
+textarea{
+    margin: 0;
+    font: inherit;
+    
+}
+.info{
+    padding-top: 70px;
+    text-align: center;
+}
+    .info p{
+        color: white;
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .info a{
+        color: #3E848A;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    .slider-main{
+        position: relative;
+    }
+@media (min-width: 1030px){
+
+
+
+    header, article, .container, .slider-main {
+        width: 78%;
+    }
+    nav ul{
+        display: flex;
+    }
+    .container-serv{
+        width: 78%;
+    }
+    .container-foot{
+        width: 78%;
+    }
+    .container-features{
+        width: 78%;
+        
+    }
+    .features-single-third{
+        width: 78%;
+    }
+    .slider{
+        padding-top: 90px;
+        width: 447px;
+    }
+    .slider p{
+        margin: 0 0 10px;
+    }
+
+
+    h1{
+        color: #686868;
+        font-size: 36px
+    }
+    h2{
+        color: #686868;
+        font-size: 24px
+    }
+    p{
+        color: black;
+        font-size: 14px;
+    }
+
+
+    .Tour{
+        display: flex;
+    }
+    #start-slider a{
+        margin-top: 20px;
+    }
+    .service{
+        width: 33%;
+        text-align: center;
+        float: left;
+    }
+
+    .service h2{
+        margin-bottom: 15px;
+    }
+    .service p{
+        padding: 0 48px;
+    }
+    .tourinfo{
+        width: 58.33333333%;
+        padding: 40px 15px;
+    }
+
+    .features-single{
+        width: 49%;
+        margin: auto;
+    
+    }
+    .features-single-left{
+        width: 47%;
+        padding-top: 65px;
+        padding-bottom: 40px;
+        text-align: right;
+    
+    }
+    .features-img{
+        width: 41.66666667%;
+    }
+    .features-img img{
+        padding: 0 15px;
+        width: 100%;
+    }
+
+    .client{
+        margin-bottom: 45px;
+    }
+ 
+
+    .client p{
+        margin: 0px 32% 10px;
+    }
+   
+
+    
+ 
+    header{
+        padding: 5px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1030px){
+    body{
+
+        width: 100%;
+    }
+    p{
+        font-size: 14px;
+    }
+    nav ul {
+        width: 114%;
+    }
+    .blockquote{
+        width: 61%;
+    }
+    .hill {
+        width: 400px;
+        right: 50%;
+        margin-right: -200px;
+
+    }
+    .house{
+        width: 250px;
+        right: 50%;
+        margin-right: -125px;
+
+    }
+    .sun{
+        right: 50%;
+        margin-right: 60px;
+        bottom: 58px;
+        width: 60px;
+    }
+    .birds1, .birds2{
+        width: 70px;
+    }
+    .birds1{
+        right: 50%;
+        margin-right: 120px;
+        bottom: 58px;
+    }
+    .testimonial{
+        width: 50%;
+    }
+    .forms {
+        width: 90%;
+    }
+    .birds2{
+        right: 50%;
+        margin-right: -200px;
+        bottom: 83px;
+    }
+    .service {
+        text-align: center;
+    }
+    .container-serv {
+        width: 100%;
+        padding: 65px 0px;
+    }
+    .container, header, body, footer, .slider-main{
+        width: 99%;
+        padding: 0px 0px;
+    }
+    .tourinfo{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .tourinfo p{
+        font-size: 18px;
+    }
+    .tourbutton{
+        width: 100%;
+        height: 157px;
+    }
+    .container-features {
+        width: 100%;
+        padding: 0px 0 40px;
+    }
+    .features-img{
+        width: 100%;
+    }
+    .features-img img {
+        width: 100%;
+    }
+    .features-single {
+        text-align: left;
+        padding-left: 10px;
+        width: 100%;
+        margin: 0 79px;
+        margin-top: 50px;
+    }
+    .features-single-left {
+        padding-top: 50px;
+        margin-left: 0;
+        text-align: right;
+        margin: 0 79px;
+    }
+    .features-single-third {
+        width: 100%;
+        padding: 0 0px 95px;
+    }
+    .container-foot {
+        width: 100%;
+        padding: 0px;
+    }
+    header{
+        padding-bottom: 40px;
+    }
+    .client p, .client h1 {
+        margin: 20px 214px 10px;
+    }
+    .slider {
+        padding-top: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .slider p {
+        margin: 0 9% 10px;
+    }
+    .slider .but{
+        margin: 20px 0 0;
+    }
+    .info{
+        padding-top: 160px;
+    }
+}
+@media (max-width: 767px){
+    body{
+        width: 98%;
+    }
+
+    .logotip {
+        width: 100%;
+    }
+    header, article, .container, .slider-main {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0px 15px;
+    }
+    .slider .but {
+        margin: 20px 0 0;
+    }
+    .logo{
+        width: 25%;
+    }
+    nav{
+        float:none;
+    }
+
+    nav ul li{
+        font-size: 12px;
+        display: flex;
+        display: none;
+    }
+    header{
+        display: block;
+        width: 100%;
+    }
+    ul{
+        display: flex;
+    }
+    .slider{
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .slider-main{
+        padding: 0;
+    }
+    .hill{
+        width: 400px;
+        margin-right: -200px;
+        right: 50%;
+    }
+    .service{
+        text-align: center;
+    }
+
+    .house{
+        width: 250px;
+        right: 50%;
+        margin-right: -125px;
+        margin-bottom: 10px;
+    }
+    .sun{
+        right: 50%;
+        margin-right: 60px;
+        bottom: 65px;
+        width: 60px;
+    }
+    .birds1 {
+        width: 70px;
+        right: 50%;
+        margin-right: 120px;
+        bottom: 60px;
+    }
+    .birds2 {
+        width: 70px;
+        right: 50%;
+        margin-right: -168px;
+        bottom: 90px;
+    }
+    #start-slider{
+        height: 429px;
+    }
+    section{
+        width: 100%;
+    }
+    .slider-main{
+        width: 100%;
+    }
+    h1{
+        font-size: 22px
+    }
+    p{
+        font-size: 14px
+    }
+    .container-serv{
+        width: 100%;
+        display: flow-root;
+        padding: 65px 0px;
+    }
+    .service{
+        width: 100%;
+    }
+    .service h2{
+        font-size: 30px 0;
+    }
+    .Tour{
+        display: block;
+        width: 100%;
+    }
+    .but:nth-child(2n){
+        margin-top: 51px;
+        position: absolute;
+    }
+    .tourinfo {
+        width: 81%;
+        padding: 40px 0px 0px 0px;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+    .tourbutton{
+        width: 100%;
+        height: 157px;
+        background-position: 151px -6px;
+    }
+    .tourinfo p{
+        font-size: 18px;
+    }
+    #TakeTour{
+        height: 255px;
+        background-size: contain;
+    }
+    .container-features {
+        width: 100%;
+        display: block;
+        padding: 25px 0;
+        text-align: center;
+    }
+    blockquote{
+        width: 77%;
+    }
+    .features-img {
+        width: 100%;
+    }
+    .features-img img{
+        padding: 0;
+    }
+    .features-single {
+        width: 100%;
+        text-align: center;
+    }
+    .container-features img{
+        width: 50%;
+    }
+    .features-single-left{
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .features-single-third{
+        display: block;
+        width: 100%;
+        padding:  0 0 95px;
+        text-align: center;
+    }
+    .features-single-third img{
+        width: 50%;
+    }
+    .client img {
+        display: block;
+        margin: 0 auto;
+    }
+    .client p {
+        margin: 0px 10% 10px;
+        text-align: center;
+    }
+    .client h1 {
+        text-align: center;
+        margin: 10px 0 20px 0;
+    }
+    section .clients div .container{
+        padding: 0px 5px;
+    }
+    header, article, .container, .slider-main {
+        padding: 0px;
+    }
+    .clients-logo {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .clients-logo img {
+        padding: 0 15px;
+        margin-right: 5%;
+        width: 100%;
+    }
+    .clients-logo img{
+    }
+    .container-foot {
+        display: block; 
+        width: auto;
+    }
+    .testimonial {
+        width: 100%;
+    }
+    .contact {
+        width: 70%;
+        padding-left: 25px;
+    }    
+    .forms {
+        width: 100%;
+        float: left;
+    }
+    form{
+        width: 95%;
+    }
+    footer{
+        width: 100%;
+        height: 1355px;
+    }
+    .testimonial {
+
+        margin-left: 0;
+    }
+    .card-logo {
+        width: 20%;
+    }
+    .info{
+        display: none;
+    }
+}
+
